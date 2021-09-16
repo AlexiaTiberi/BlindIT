@@ -1,2 +1,2 @@
 # BlindIT
-A short python code to blind folder names for data analysis
+BlindIT is a python code to automatically blind folder names. It changes folder names to numbers from 0 to n-1 where n is the number of folders in the directory of your choosing. The program saves a txt file (KEYS) containing the keys with the original names associated to the numbers to revert the names once you are done analyzing your data. Please note that the changes are irreverible so use a copy of your data. The program accepts a folder path and blinds it!
