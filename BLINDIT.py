@@ -44,7 +44,6 @@ try:
         while active:
             user = input("WARNING: are you sure you want to blind the folders in that directory? (y/n) \nThe process is IRREVERSIBLE, make sure you have a copy if anything were to go wrong\n").lower()
             if user == "y":
-                ymaze()
                 blindIT()
                 active=False
                 print("Your folders are blinded! \nThank you for using blindIT!\n")
